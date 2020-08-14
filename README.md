@@ -1,4 +1,3 @@
-# JavaDB
 # Database System 
 
 Homebrew SQL database system, built from the ground up. Works with the SQL [Syntax](#syntax) listed below in BNF form. This system uses no external libraries to set up the database or parse the SQL queries. 
