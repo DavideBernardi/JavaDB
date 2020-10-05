@@ -4,7 +4,7 @@ Homebrew SQL database system, built from the ground up. Works with the SQL [Synt
 
 ## Usage
 
-### Example Queries
+### Automatic Queries Showcase
     $ java DBServer
     $ java DBAutoClient 
     
@@ -16,7 +16,9 @@ DBServer starts up the database on the server, it can then be accessed by client
     
 Once the client is running, SQL queries can be entered on the command line. A full breakdown of the syntax is given below.
 
-Example queries include: 
+## Queries Examples
+
+Basic data structures creation: 
     
      CREATE DATABASE coursework;
      Server response: OK
