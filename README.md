@@ -3,10 +3,20 @@
 Homebrew SQL database system, built from the ground up. Works with the SQL [Syntax](#syntax) listed below in BNF form. This system uses no external libraries to set up the database or parse the SQL queries. 
 
 ## Usage
+
+### Example Queries
     $ java DBServer
-    $ java DBClient 
+    $ java DBAutoClient 
     
-Once the client is running you can enter SQL queries on the command line. Example queries include: 
+DBServer starts up the database on the server, it can then be accessed by clients. Running DBAutoClient gives a client with pre-written sample queries than can be sent to the Server by just pressing Enter. 
+
+### Normal Usage
+    $ java DBServer
+    $ java DBClient
+    
+Once the client is running, SQL queries can be entered on the command line. A full breakdown of the syntax is given below.
+
+Example queries include: 
     
      CREATE DATABASE coursework;
      Server response: OK
